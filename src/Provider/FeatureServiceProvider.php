@@ -16,7 +16,7 @@ class FeatureServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $this->loadMigrationsFrom(__DIR__.'/../Migration');
+        // $this->loadMigrationsFrom(__DIR__.'/../Migration');
 
         $this->publishes([
             __DIR__.'/../Config/features.php' => config_path('features.php'),
